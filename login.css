@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(223, 218, 218);
+}
+.border{
+    background-image: url(pink_teal_blue_iphone.jpg);
+    background-size: cover;
+    border-radius: 12px;
+    text-align: center;
+    margin: 10%;
+    padding: 27px;
+}
+.border{
+    margin-top: 108px;
+}
+h2{
+    background-color: rgb(30, 30, 168);
+    width: 100%;
+    padding: 10px;
+    border-radius: 12px;
+    color: aliceblue;
+}
+form{
+    margin: 40px;
+}
+input{
+    border-right: 0;
+    opacity: .7;
+    height: 25px;
+    border-top: 0;
+    border-left: 0;
+    position: relative;
+}
+label{
+    color: antiquewhite;
+}
+button{
+    margin-top: 18px;
+    color: white;
+    background-color: rgb(5, 154, 199);
+    border: 0;
+    padding: 13px;
+    width: 122px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(24, 158, 199);
+}
+.link{
+    margin: 10px;
+    float: left;
+    margin: 8px;
+}
+.link2{
+    float: right;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@media (min-width:750px) {
+    .border{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
